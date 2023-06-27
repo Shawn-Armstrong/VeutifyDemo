@@ -19,7 +19,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.PROD ? '/Demo4/' : '/'),
+  history: createWebHistory(import.meta.env.PROD ? '/VeutifyDemo/' : '/'),
   routes,
 })
 
