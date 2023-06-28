@@ -12,8 +12,11 @@ import { createApp } from 'vue'
 
 // Plugins
 import { registerPlugins } from '@/plugins'
+import { Plugin } from 'vue-responsive-video-background-player'
 
 const app = createApp(App)
+
+app.use(Plugin)
 
 registerPlugins(app)
 

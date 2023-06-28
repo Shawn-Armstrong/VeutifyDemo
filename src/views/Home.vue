@@ -7,10 +7,16 @@
       src="../assets/ucsc_logo.png"
       class="my-10"
     ></v-img>
-    <h1 class="text-center" style="color: #003c6c">
+
+    <video-background
+      src="src\assets\intro2.mp4"
+      style="max-height: 300px; height: 100vh"
+    >
+    </video-background>
+
+    <h1 class="text-center my-2" style="color: #003c6c">
       Computer Science and Engineering Mentoring
     </h1>
-
 
     <v-row class="my-10" justify="center">
       <v-btn
@@ -19,7 +25,7 @@
         prepend-icon="mdi-home"
         elevation="12"
         raised
-        size="x-large"
+        size="large"
       >
         Login / Register
       </v-btn>
@@ -27,5 +33,4 @@
   </v-container>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
