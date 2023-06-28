@@ -9,7 +9,7 @@
     ></v-img>
 
     <video-background
-      :src="require('@/assets/intro2.mp4')"
+      :src="introVideo"
       style="max-height: 300px; height: 100vh"
     >
     </video-background>
@@ -33,4 +33,6 @@
   </v-container>
 </template>
 
-<script setup></script>
+<script setup>
+import introVideo from '@/assets/intro2.mp4'
+</script>
