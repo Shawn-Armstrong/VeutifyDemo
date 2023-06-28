@@ -9,7 +9,7 @@
     ></v-img>
 
     <video-background
-      src="src\assets\intro2.mp4"
+      :src="require('@/assets/intro2.mp4')"
       style="max-height: 300px; height: 100vh"
     >
     </video-background>
